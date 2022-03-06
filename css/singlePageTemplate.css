@@ -167,7 +167,7 @@ ul li:hover a {
 	color: #ffffff;
 	text-align: right;
 	padding-right: 100px;
-	width: 30%;
+	width: 50%;
 	float: right;
 	font-weight: lighter;
 	line-height: 23px;
@@ -175,6 +175,16 @@ ul li:hover a {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+}
+/* Recruitment tab */
+.recruitment {
+	background-color: #b3b3b3;
+	padding-top: 30px;
+	padding-bottom: 35px;
+	padding-left: 30px;
+}
+.recruitment p, .recruitment li {
+	color: #ffffff;
 }
 /* More info */
 footer {
@@ -194,6 +204,12 @@ footer .footer_column h3 {
 footer .footer_column p {
 	color: #717070;
 	background-color: #ffffff;
+}
+.logos {
+	width: 20%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
 }
 .cards {
 	width: 100%;
@@ -261,9 +277,15 @@ footer {
 	display: none;
 }
 table {
-	font-size: 14px;
+	font-size: 16px;
 	margin: auto;
 	align-content: center;
+}
+.footer_banner p {
+	text-align: center;
+}
+.footer_banner a {
+	text-decoration: none;
 }
 
 /* Mobile */
